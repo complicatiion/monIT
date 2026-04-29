@@ -1,0 +1,38 @@
+tragets.json = main config
+
+contains "examples" per Default!
+
+please configure your Systems within target.json!
+
+
+PHP-Limit 
+
+
+C:\php\php.ini
+
+max_execution_time = 30
+
+max_execution_time = 120
+
+default_socket_timeout = 5
+
+
+PHP-Server
+
+ICMP-Timeout 
+
+"timeout_ms": 1200
+
+
+"timeout_ms": 500
+
+
+"timeout_ms": 700
+
+Example:
+
+"icmp": {
+  "enabled": true,
+  "timeout_ms": 500
+}
+

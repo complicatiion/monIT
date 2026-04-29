@@ -1,0 +1,202 @@
+[
+  {
+    "id": "portal-demo-01",
+    "name": "Portal Demo 01",
+    "host": "example.com",
+    "group": "Kiosk Demo",
+    "description": "Repeated safe demo target to test vertical kiosk auto-scroll.",
+    "checks": {
+      "tcp": {
+        "enabled": true,
+        "port": 443,
+        "timeout_ms": 1500
+      },
+      "http": {
+        "enabled": true,
+        "url": "https://example.com/",
+        "timeout_ms": 2500,
+        "expected_status": [
+          200,
+          301,
+          302
+        ]
+      }
+    },
+    "overview_label": "Portal Demo 01"
+  },
+  {
+    "id": "portal-demo-02",
+    "name": "Portal Demo 02",
+    "host": "example.com",
+    "group": "Kiosk Demo",
+    "description": "Repeated safe demo target to test vertical kiosk auto-scroll.",
+    "checks": {
+      "tcp": {
+        "enabled": true,
+        "port": 443,
+        "timeout_ms": 1500
+      },
+      "http": {
+        "enabled": true,
+        "url": "https://example.com/",
+        "timeout_ms": 2500,
+        "expected_status": [
+          200,
+          301,
+          302
+        ]
+      }
+    },
+    "overview_label": "Portal Demo 02"
+  },
+  {
+    "id": "portal-demo-03",
+    "name": "Portal Demo 03",
+    "host": "example.com",
+    "group": "Kiosk Demo",
+    "description": "Repeated safe demo target to test vertical kiosk auto-scroll.",
+    "checks": {
+      "tcp": {
+        "enabled": true,
+        "port": 443,
+        "timeout_ms": 1500
+      },
+      "http": {
+        "enabled": true,
+        "url": "https://example.com/",
+        "timeout_ms": 2500,
+        "expected_status": [
+          200,
+          301,
+          302
+        ]
+      }
+    },
+    "overview_label": "Portal Demo 03"
+  },
+  {
+    "id": "portal-demo-04",
+    "name": "Portal Demo 04",
+    "host": "example.com",
+    "group": "Kiosk Demo",
+    "description": "Repeated safe demo target to test vertical kiosk auto-scroll.",
+    "checks": {
+      "tcp": {
+        "enabled": true,
+        "port": 443,
+        "timeout_ms": 1500
+      },
+      "http": {
+        "enabled": true,
+        "url": "https://example.com/",
+        "timeout_ms": 2500,
+        "expected_status": [
+          200,
+          301,
+          302
+        ]
+      }
+    },
+    "overview_label": "Portal Demo 04"
+  },
+  {
+    "id": "portal-demo-05",
+    "name": "Portal Demo 05",
+    "host": "example.com",
+    "group": "Kiosk Demo",
+    "description": "Repeated safe demo target to test vertical kiosk auto-scroll.",
+    "checks": {
+      "tcp": {
+        "enabled": true,
+        "port": 443,
+        "timeout_ms": 1500
+      },
+      "http": {
+        "enabled": true,
+        "url": "https://example.com/",
+        "timeout_ms": 2500,
+        "expected_status": [
+          200,
+          301,
+          302
+        ]
+      }
+    },
+    "overview_label": "Portal Demo 05"
+  },
+  {
+    "id": "portal-demo-06",
+    "name": "Portal Demo 06",
+    "host": "example.com",
+    "group": "Kiosk Demo",
+    "description": "Repeated safe demo target to test vertical kiosk auto-scroll.",
+    "checks": {
+      "tcp": {
+        "enabled": true,
+        "port": 443,
+        "timeout_ms": 1500
+      },
+      "http": {
+        "enabled": true,
+        "url": "https://example.com/",
+        "timeout_ms": 2500,
+        "expected_status": [
+          200,
+          301,
+          302
+        ]
+      }
+    },
+    "overview_label": "Portal Demo 06"
+  },
+  {
+    "id": "portal-demo-07",
+    "name": "Portal Demo 07",
+    "host": "example.com",
+    "group": "Kiosk Demo",
+    "description": "Repeated safe demo target to test vertical kiosk auto-scroll.",
+    "checks": {
+      "tcp": {
+        "enabled": true,
+        "port": 443,
+        "timeout_ms": 1500
+      },
+      "http": {
+        "enabled": true,
+        "url": "https://example.com/",
+        "timeout_ms": 2500,
+        "expected_status": [
+          200,
+          301,
+          302
+        ]
+      }
+    },
+    "overview_label": "Portal Demo 07"
+  },
+  {
+    "id": "portal-demo-08",
+    "name": "Portal Demo 08",
+    "host": "example.com",
+    "group": "Kiosk Demo",
+    "description": "Repeated safe demo target to test vertical kiosk auto-scroll.",
+    "checks": {
+      "tcp": {
+        "enabled": true,
+        "port": 443,
+        "timeout_ms": 1500
+      },
+      "http": {
+        "enabled": true,
+        "url": "https://example.com/",
+        "timeout_ms": 2500,
+        "expected_status": [
+          200,
+          301,
+          302
+        ]
+      }
+    },
+    "overview_label": "Portal Demo 08"
+  }
+]

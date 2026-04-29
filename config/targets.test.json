@@ -1,0 +1,17 @@
+[
+  {
+    "id": "example",
+    "name": "EXAMPLE COM WEB)",
+    "overview_label": "EXA",
+    "host": "example.com",
+    "group": "Websites",
+    "description": "example.com TCP check.",
+    "checks": {
+      "tcp": {
+        "enabled": true,
+        "port": 443,
+        "timeout_ms": 1000
+      }
+    }
+  }
+]

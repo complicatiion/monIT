@@ -1,0 +1,83 @@
+[
+  {
+    "id": "server-file-01",
+    "name": "File Server 01",
+    "host": "192.168.10.25",
+    "group": "Servers",
+    "description": "Server reachability check using ICMP only.",
+    "checks": {
+      "icmp": {
+        "enabled": true,
+        "timeout_ms": 1200
+      }
+    }
+  },
+  {
+    "id": "server-rds-01",
+    "name": "RDS Server 01",
+    "host": "192.168.10.30",
+    "group": "Servers",
+    "description": "RDS server ICMP and TCP availability check.",
+    "checks": {
+      "icmp": {
+        "enabled": true,
+        "timeout_ms": 1200
+      },
+      "tcp": {
+        "enabled": true,
+        "port": 3389,
+        "timeout_ms": 1500
+      }
+    }
+  },
+  {
+    "id": "intranet-web",
+    "name": "Intranet Web",
+    "host": "192.168.10.50",
+    "group": "Web Services",
+    "description": "Internal HTTPS application health check.",
+    "checks": {
+      "tcp": {
+        "enabled": true,
+        "port": 443,
+        "timeout_ms": 1500
+      },
+      "http": {
+        "enabled": true,
+        "url": "https://192.168.10.50/",
+        "timeout_ms": 2500,
+        "expected_status": [200, 301, 302]
+      }
+    }
+  },
+  {
+    "id": "switch-snmp",
+    "name": "Distribution Switch",
+    "host": "192.168.10.20",
+    "group": "Network",
+    "description": "SNMP health data using Net-SNMP executables.",
+    "checks": {
+      "icmp": {
+        "enabled": true,
+        "timeout_ms": 1200
+      },
+      "snmp": {
+        "enabled": false,
+        "version": "2c",
+        "community": "public",
+        "timeout_seconds": 1,
+        "retries": 0,
+        "oids": [
+          {
+            "label": "System Name",
+            "oid": "1.3.6.1.2.1.1.5.0"
+          },
+          {
+            "label": "System Uptime",
+            "oid": "1.3.6.1.2.1.1.3.0"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "web-portal",
+    "name": "Portal Web",
+    "host": "example.com",
+    "group": "Services",
+    "description": "Public HTTP endpoint with TCP and HTTP availability checks.",
+    "checks": {
+      "tcp": {
+        "enabled": true,
+        "port": 443,
+        "timeout_ms": 1500
+      },
+      "http": {
+        "enabled": true,
+        "url": "https://example.com/",
+        "timeout_ms": 2500,
+        "expected_status": [
+          200,
+          301,
+          302
+        ]
+      }
+    },
+    "overview_label": "Portal Web"
+  },
+  {
+    "id": "monit-local-tcp",
+    "name": "monIT Local TCP",
+    "host": "127.0.0.1",
+    "group": "Local",
+    "description": "Local PHP built-in web server TCP check on port 8080. HTTP self-check is intentionally avoided.",
+    "checks": {
+      "tcp": {
+        "enabled": true,
+        "port": 8080,
+        "timeout_ms": 1000
+      }
+    },
+    "overview_label": "monIT Local TCP"
+  }
+]

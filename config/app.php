@@ -1,0 +1,53 @@
+<?php
+return [
+    'version' => '1.1.1',
+    'github_url' => 'https://github.com/complicatiion/monIT',
+    'app_name' => 'monIT',
+    'dashboard_name' => 'monIT Dashboard',
+    'timezone' => 'Europe/Berlin',
+    'refresh_interval_seconds' => 15,
+    'kiosk' => [
+        'auto_scroll_enabled' => true,
+        'auto_scroll_speed' => 0.50,
+        'auto_scroll_pause_seconds' => 3,
+        'auto_scroll_start_delay_seconds' => 2,
+        'auto_scroll_reset_after_refresh' => false,
+        'overview_auto_scroll_enabled' => true,
+        'overview_auto_scroll_speed' => 0.36,
+        'overview_auto_scroll_pause_seconds' => 2,
+        'overview_auto_scroll_start_delay_seconds' => 1,
+    ],
+    'layout' => [
+        'target_grid_max_columns' => 4,
+        'target_card_min_width_px' => 300,
+        'target_grid_gap_px' => 18,
+        'target_scroll_desktop_breakpoint_px' => 1181,
+        'overview_grid_columns' => 2,
+        'overview_card_max_height_px' => 360,
+    ],
+    'cache_ttl_seconds' => 20,
+    'history_limit' => 500,
+    'snmp' => [
+        'binary' => __DIR__ . '/../bin/snmpget.exe',
+        'walk_binary' => __DIR__ . '/../bin/snmpwalk.exe',
+        'runtime_paths' => [
+            __DIR__ . '/../bin',
+            __DIR__ . '/../bin/bin',
+        ],
+        'default_version' => '2c',
+        'default_timeout_seconds' => 1,
+        'default_retries' => 0,
+    ],
+    'paths' => [
+        'targets' => __DIR__ . '/targets.json',
+        'history' => __DIR__ . '/../storage/history.json',
+        'cache' => __DIR__ . '/../storage/status-cache.json',
+    ],
+    'ui' => [
+        'critical_glow' => '#ff3b3b',
+        'warning_glow' => '#ffae42',
+        'ok_glow' => '#3cff84',
+        'surface_alpha' => 0.68,
+        'surface_border_alpha' => 0.12,
+    ],
+];
