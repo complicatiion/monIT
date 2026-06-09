@@ -27,6 +27,15 @@ The intended use case is a small passive monitoring screen that can run unattend
 
 ---
 
+## Previews
+
+![Preview 1](preview/preview1.jpg)
+![Preview 2](preview/preview2.jpg)
+![Preview 3](preview/preview3.jpg)
+![Preview 4](preview/preview4.jpg)
+
+---
+
 ## Features
 
 monIT currently supports:
@@ -58,15 +67,6 @@ Status states:
 | `UP` | Target/check is healthy |
 | `WARNING` | Degraded or partially problematic state |
 | `DOWN` | Target/check is unreachable or failed |
-
----
-
-## Previews
-
-![Preview 1](preview/preview1.jpg)
-![Preview 2](preview/preview2.jpg)
-![Preview 3](preview/preview3.jpg)
-![Preview 4](preview/preview4.jpg)
 
 ---
 
