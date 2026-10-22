@@ -1,52 +1,19 @@
 # monIT License
 
 Copyright (c) 2026 complicatiion aka sksdesign aka sven404
-All rights reserved unless explicitly granted below or otherwise mentioned/licensed, or generally based on an open-source license.
 
-## License model
+# MIT License (MIT)
 
-monIT is made available under a **non-commercial attribution license** for private and personal use.
+---
 
-Commercial use is **not permitted** unless the copyright holder gives separate written permission.
+Permission is hereby granted, free of charge, to any person obtaining a copy of *this software and associated documentation files* (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-## Permitted use
+The above copyright notice and this permission notice (*including the next paragraph*) shall be included in all copies or substantial portions of the Software.
 
-You may:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL *THE AUTHORS OR COPYRIGHT HOLDERS* BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-- use the project privately
-- use the project personally on your own systems
-- study the code
-- modify the code for your own private, non-commercial purposes
-- share unmodified or modified copies for non-commercial purposes only, provided proper attribution is given
+---
 
-## Conditions
-
-If you use, copy, modify, or redistribute this project under the permitted non-commercial terms, you must:
-
-- keep attribution to the original author complicatiion aka sksdesign aka sven404
-- keep this license file included
-- clearly indicate whether you changed the project
-- not misrepresent the project as your own original work
-- not remove existing copyright or attribution notices
-
-## Prohibited use
-
-You may not:
-
-- use this project commercially
-- sell this project or any modified version of it
-- include this project in paid products or paid services
-- use this project in commercial environments without permission
-- sublicense this project for commercial distribution
-- claim authorship of the original project
-
-## Commercial use
-
-Commercial use is not included in this license.
-
-If you want to use monIT commercially, you must obtain separate written permission from the copyright holder.
-
-Until such permission is granted, **all commercial rights remain reserved**.
 
 ## No warranty
 
@@ -82,20 +49,6 @@ You use the software entirely at your own risk.
 monIT is a **private hobby project** and a **work in progress**.
 
 The project is still under active refinement. Features may be incomplete, unstable, experimental, or partially non-functional. Future versions may change structure, behavior, or feature availability without notice.
-
-## Attribution
-
-Any permitted redistribution or adaptation must include visible attribution to the original project and author.
-
-A suitable attribution example is: complicatiion (aka sksdesign aka sven404)
-
-> Based on monIT by the original author complicatiion aka sksdesign. Used under the monIT non-commercial attribution license.
-
-## Suggested interpretation
-
-This license is intended to function in a way similar to a **non-commercial attribution license**, but with commercial rights explicitly reserved.
-
-If you need a different licensing model, that must be agreed separately in writing.
 
 ## Legal Disclaimer
 
